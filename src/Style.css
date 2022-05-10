@@ -1,0 +1,108 @@
+.top-header {
+    background-color: #0050c9;
+    height: 30px !important;
+}
+
+.th-text {
+    color: #fff;
+    line-height: 30px;
+}
+
+.scl {
+    text-align: right;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+.card-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.card-section h2{text-align: center; margin-bottom: 50px;}
+.mcard{margin-bottom: 20px;}
+
+.inrcard {
+    box-sizing: border-box;
+    box-shadow: 0px 3px 5px 1px;
+    background: #ffffff;
+}
+
+.mcard .cardimage img {
+    height: 130px;
+    width: 100%;
+    
+}
+
+.cardimage img{padding: 10px;}
+.cardbody h4{text-align: center;}
+.cardbody p{text-align: justify; padding-left: 10px;padding-right: 10px;}
+.cardbtn {text-align: center;padding-bottom: 15px}
+
+.card-title{text-align: center;}
+.bimgc{width: 500px; height: 300px;}
+
+
+.body-section{height: auto;max-width: 100%;margin-bottom: 50px;}
+.leftimg-section{max-width: 100%;}
+.leftimg{width: 800px;}
+.mlauto{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000 !important;
+    padding-left: 12%;
+}
+
+/* Slider Text */
+.fstsldsec {
+    
+    text-align: left;
+}
+.fstsldsec h3{
+    font-size: 80px;
+    font-weight: 700;
+    
+    
+}
+
+.sndsldsec {
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 30%;
+}
+.sndsldsec h3{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.trdsldsec {
+    text-align: right;
+    margin-bottom: 20%;
+    margin-top: 30%;
+}
+.trdsldsec h3{
+    font-size: 60px;
+    font-weight: 700;
+}
+.cardp{font-size: 18px;
+    font-weight: 400;}
+.cardbody h4{font-size: 1.1rem;}
+.bdoffcls{text-align: center;}
+.bdoffhd{font-size: 40px;font-weight: 700;}
+.hmbdoffp{font-weight: 400;}
+.btncls{margin-top: 20PX;margin-bottom: 20PX;}
+.btnin{font-weight: 600;font-size: 16px;}
+
+/* Footer CSS */
+.footersection{margin-top: 20px; margin-bottom: 20px; padding-top: 50px;padding-bottom: 50px;background: #f1f1f1;}
+.ftrulcls{list-style: none;}
+.ftrlicls{text-decoration: none;padding-top: 5px;padding-bottom: 5px; }
+.ftrlicls a {color: #000;}
+.socialtlt{ font-size: 20px;font-weight: 600;padding-top: 30px;
+padding-bottom: 15px;}
+.serftrtxt {text-align: center !important;font-size: 20px;font-weight: 600;}
