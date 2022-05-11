@@ -8,7 +8,7 @@ import img4 from './images/image4.jpg';
 
 const Card = () => {
 
-    const data = "demo data";
+    
     return (
         <>
             <div className="card-section">

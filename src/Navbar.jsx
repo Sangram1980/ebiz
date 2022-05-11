@@ -8,7 +8,7 @@ const Navbar = () => {
             
             <div className="container">
 
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
                     <img src={logo} />
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -33,11 +33,15 @@ const Navbar = () => {
                                     <a class="dropdown-item" href="#">Development</a>
                                 </div>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/solutions">Solutions</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/contact">Contact us</a>
                             </li>
                         </ul>
-                        <div className="btn btn-primary ml-auto">GET QUOTE</div>
+                        <div className="btn btn-danger ml-auto navbtn">GET QUOTE</div>
                     </div>
                 </nav>
 

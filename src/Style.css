@@ -1,23 +1,32 @@
 .top-header {
-    background-color: #0050c9;
-    height: 30px !important;
+    background-color: #000;
+    height: 50px !important;
 }
 
 .th-text {
     color: #fff;
-    line-height: 30px;
+    line-height: 50px;
 }
-
-.scl {
+.mob,.topscl {
+    line-height: 3;
+}
+.mob,.topscl {
     text-align: right;
     color: #fff;
     font-size: 15px;
     margin-top: 3px;
     padding-left: 10px;
 }
+.topicon{padding-right: 5px;color: #dc3545;}
+.topmob{padding-left: 10px;font-family: monospace;}
+.topscl{text-align: left;padding-left: 10px;color: #dc3545;}
+
+.headerf{background-color: #fff !important;}
+.navbtn{font-weight: 600;padding-left: 25px;
+    padding-right: 25px;}
 
 .card-section {
-    margin-top: 50px;
+    
     margin-bottom: 50px;
     background-color: #f1f1f1;
     padding-top: 50px;
@@ -99,10 +108,50 @@
 .btnin{font-weight: 600;font-size: 16px;}
 
 /* Footer CSS */
-.footersection{margin-top: 20px; margin-bottom: 20px; padding-top: 50px;padding-bottom: 50px;background: #f1f1f1;}
-.ftrulcls{list-style: none;}
+.footersection{margin-top: 20px; padding-top: 50px;padding-bottom: 50px;background: #d5d5d5;
+background-image: url(./images/backgroudn.webp);background-repeat: no-repeat;
+background-size: cover;}
+.ftrcol1txt{padding-top: 20px;padding-bottom: 10px;}
+.ftrulcls{list-style: none; padding-left: 0px !important;}
 .ftrlicls{text-decoration: none;padding-top: 5px;padding-bottom: 5px; }
 .ftrlicls a {color: #000;}
 .socialtlt{ font-size: 20px;font-weight: 600;padding-top: 30px;
 padding-bottom: 15px;}
 .serftrtxt {text-align: center !important;font-size: 20px;font-weight: 600;}
+.adrhd{font-size: 15px; font-weight: 500;color: #01107c;}
+.firadr{font-weight: 500;}
+.ftrcpright{background: #000; color: #fff;height: 50px;line-height: 3; text-align: center;}
+
+.ftricon{color: #dc3545;}
+.ftrsndrow{padding-top: 15px;}
+.row.ftrsndrow {
+    background: #fff;
+    box-shadow: 0px 2px 4px 1px;
+}
+.ftrsndrow {
+    padding-top: 15px;
+    background: #196a89;
+    box-shadow: 0px 12px 1px 4px #055370;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    
+    
+}
+.row.ftrsndrow {
+    background: #fff;
+    box-shadow: 0px 2px 4px 1px;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+p.ftrsndtxt {
+    padding-top: 15px;
+}
+.ftrbrd{border-right: 1px solid #d9d7d7;}
+p.ftrsndtxt.ftrtrdclm {
+    padding-top: 37px;
+}
+
+.adrsec{display: flex;}
+.usaclsp{display: none;}
+.ukclsp{display: none;}

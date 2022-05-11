@@ -13,7 +13,7 @@ const Body = () => {
                         <h4 className="bdoffhd">We are offering the best <br/> <span className="hmbdoffp"> pricing to help you!</span> </h4>
                         <span className="offcls">We love what we do and we do it with passion. We value the<br/> experimentation, the reformation of the message</span>
                      <div className="btncls">
-                         <button className="btn btn-primary btnin">GET QUOTE</button>
+                         <button className="btn btn-danger navbtn">GET QUOTE</button>
                      </div>
                     </div>
                 </div>
