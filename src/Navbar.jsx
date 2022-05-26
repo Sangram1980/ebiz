@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from './images/logo/logoebs.png';
 
 
@@ -16,10 +17,10 @@ const Navbar = () => {
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav mlauto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                                <Link class="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/about">About us</a>
+                                <Link class="nav-link" to="/about">About us</Link>
                             </li>
                             
                             <li class="nav-item dropdown">

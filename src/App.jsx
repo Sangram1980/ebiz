@@ -31,9 +31,9 @@ const App = () => {
         <Route exact path="/solutions" element={<Solutions />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="*" element={<Notfound />} />
-      </Routes>
+      </Routes> 
 
-      <Footer1/>
+     <Footer1/>
 
     </>
   );
